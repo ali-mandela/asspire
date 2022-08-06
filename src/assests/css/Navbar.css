@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto','Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.topText{
+    background-color: #e1e1e1;
+    height: 30px;
+    text-align: right;
+    padding: 0 30px;
 }
 
 nav{
@@ -21,7 +26,7 @@ nav .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 8px 50px;
   box-shadow: 0 1px 2px rgba(0,0,0,.9);
   background-color:rgba(255, 255, 255, 0.806);
 }
@@ -47,7 +52,7 @@ nav .navbar .nav-links .links li a {
 }
 nav .navbar .nav-links .submenu{
   position: absolute;
-  top: 82px;
+  top: 80px;
   left: 0;
   line-height: 40px;
   background-color:white;
@@ -70,7 +75,7 @@ nav .navbar .nav-links .submenu li:hover{
 }
 nav .navbar .nav-links .links li:hover .submenu{
   display: block;
-  border-top: 2px solid #075887;
+  border-top: 4px solid #075887;
 }
 .libtn a span{
   border: 2px solid wheat;

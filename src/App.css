@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
-
+@import 'bootstrap/dist/css/bootstrap.min.css';
 *{
   margin: 0;
   padding: 0;
@@ -7,3 +7,4 @@
   font-family: 'Roboto','Ubuntu', sans-serif;
 
 }
+

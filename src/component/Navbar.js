@@ -1,10 +1,17 @@
 import '../assests/css/Navbar.css';
+import logo from '../assests/img/logo.png';
 
 function Navbar(){
 return(<>
+{/* <div className="topText">
+<div>
+<span>CALL US TODAY </span><a href="tel:303.932.8555">303.932.8555</a>
+</div>
+    
+</div> */}
     <nav> 
     <div className='navbar'>
-  <div className='logo'><a href=''><img src=" "alt='logo of aspire'/></a></div>
+  <div className='logo'><a href=''><img src={logo} alt='logo of aspire'/></a></div>
     <div className='nav-links'>
     <div className='sidebar-logo' id='sidebarLogo'>
     <i class="fa-solid fa-xmark fa-3x"></i>
