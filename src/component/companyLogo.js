@@ -7,7 +7,9 @@ import logo5 from '../assests/img/f.png';
 
 
 function CompanyLogo(){
-    return(<>
+    return(<><div className='sidebutton'>
+    <h4>Remote Support </h4>
+  </div>
     <div className="CLdiv">
     
     <img src={logo1}

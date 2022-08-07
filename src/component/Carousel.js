@@ -5,7 +5,8 @@ import bd3 from '../assests/img/banner_dashboard.jpg';
 import '../assests/css/CarouselSection.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousell() {
-  return (
+  return (<>
+  
     <div className='cDiv'>
     <Carousel variant="dark">
       <Carousel.Item interval={100}>
@@ -49,7 +50,7 @@ function Carousell() {
       </Carousel.Item>
     </Carousel>
     </div>
-  );
+    </>);
 }
 
 export default Carousell;

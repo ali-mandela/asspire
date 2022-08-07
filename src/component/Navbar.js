@@ -10,7 +10,7 @@ return(<>
 </div>
     
 </div>
-    <nav> 
+    <nav id='bottom'> 
     <div className='navbar'>
   <div className='logo'><a href=''><img src={logo} alt='logo of aspire'/></a></div>
     <div className='nav-links'>

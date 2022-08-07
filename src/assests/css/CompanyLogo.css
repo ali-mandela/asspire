@@ -5,7 +5,19 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
-
+.sidebutton{
+    position: fixed;
+    top: 50%;
+    right: -1px;
+    transform: rotate(90deg);
+    background-color: #075887;
+    color: white;
+    z-index: 1;
+    padding: 4px;
+    border: 1px solid #075887;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 
 .CLdiv{
     display: flex;

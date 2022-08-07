@@ -11,11 +11,13 @@ function Footer(){
             <a href=''>Areas Served</a>
             </p>
             </div>
-            <span className='sidebtn'><a href><i class="fa-solid fa-angle-up fa-3x"></i></a></span>
-            <div claasName="bottomDiv">
-                <p>© 2000-2022 Aspire Technology Solutions, Inc. All Rights Reserved.</p> 
-                <a href="">Acceptable Use Policy</a> 
+            <span className='sidebtn'><a href="#bottom"><i class="fa-solid fa-angle-up fa-3x"></i></a></span>
+
+            <div className="btmdiv">
+            <p>© 2000-2022 Aspire Technology Solutions, Inc. All Rights Reserved.</p>
+            <a href="">Acceptable Use Policy</a> 
             </div>
+              
         </div>
     </>);
 }
