@@ -14,13 +14,13 @@ import Footer from "./component/Footer";
 
 function App() {
   return (<>
-      {/* <Navbar/>  
-    <Carousell/>  
+      <Navbar/>  
+   
     <Carousel/>
     <CompanyLogo/>
      <Section3/> 
-    <CarouselSection/> */}
-    {/* <Testimonial/> */}
+    <CarouselSection/>
+    <Testimonial/>
     <Footer/>
   </>
   );
