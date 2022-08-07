@@ -45,8 +45,8 @@ function Carousel() {
                 <p>Service you can trust.</p>
             </a></div>  </Col>
         <Col sm={12}lg={6} > <div className='divBody'> <a href=''>
-                <h3>The Aspire Guarantee </h3>
-                <p>Service you can trust.</p>
+                <h3>IT & Network Security for SMB</h3>
+                <p>Next level cybersecurity.</p>
             </a></div>  </Col>
             </div>
       </Row>

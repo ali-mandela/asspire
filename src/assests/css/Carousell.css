@@ -8,7 +8,7 @@
 
 .carouselMainDiv{
      position: relative;
-    top:146px;
+    top:145px;
     left: 0;
     
 
@@ -50,7 +50,7 @@
 .sec3div{
     background-image: url("../img/banner.png");
     text-align: center;
-    padding: 20px 90px;
+    padding: 10px 90px;
     height: 40vh;
     
 }
@@ -58,8 +58,9 @@
     position: relative;
     top: 13vh;
 }
+ 
 .sec3div .divBody{
-    border: 1px solid black;
+    border: 3px solid #075887; 
      
 }
 .sec3div a{
@@ -69,6 +70,7 @@
 }
 .sec3div a h3{
     font-size: 24px;
+    color: black;
 }
 .sec3div a p{
     font-size: 14px;

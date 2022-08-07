@@ -15,10 +15,11 @@ import Footer from "./component/Footer";
 function App() {
   return (<>
   <Navbar/>
-      <CarouselSection/>
-      <Carousel/>
-      </>
-  );
+  <Carousell/>
+  <Carousel/>
+  <CompanyLogo/>
+      
+  </>);
 }
 
 export default App;

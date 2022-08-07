@@ -11,8 +11,8 @@ function section3(){
    </div>
     <div class="col-md-6  offset-md-3">
     <div><a href=''>
-                <h3> IT & Network Security for SMB</h3>
-                <p>Next level cybersecurity.</p>
+                <h3> </h3>
+                <p></p>
             </a></div>
 </div>
   </div>
