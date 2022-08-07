@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import img from '../assests/img/download.svg';
 import '../assests/css/CarouselSection.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousell() {
   return (
     <div className='cDiv'>

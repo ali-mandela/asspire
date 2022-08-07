@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import icon1 from '../assests/img/icon1.png';
 import icon2 from '../assests/img/icon2.png';
 import icon3  from '../assests/img/Icon3.png';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousel() {
   return (<>
     <div className='rowdiv1'><h1>BUSINESS IT SERVICES IN DENVER, CO</h1></div>

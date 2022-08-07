@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ 
+.topDiv{
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 40px 120px;
+}
+.topDiv h1{
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+.topDiv a{
+    text-decoration: none;
+    color: white;
+}
+.topDiv a:hover{
+    color: gray;
+}
+.topDiv p{
+    font-size: 14px;
+}
+.sidebtn{
+    padding: 20px;
+    border: 4px solid gray;
+    background-color: #4a4a4a;
+    position: fixed;
+    display: none;
+    bottom: 20px;
+    left:1180px;
+}
+.mainDiv .bottomDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 40px;
+    background-color: #444;;
+}
+/* .topDiv{
+    padding: 50px 70px;
+    text-align: center;
+    background-color: #4a4a4a;
+    color: white;
+}
+.divOne a{
+    color: white;
+}
+.divOne a:hover{
+    color:cornflowerblue;
+}
+.divOne h1{
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.sidebtn{
+    position: relative;
+    border: solid black 2px;
+    padding: 4px;
+    bottom: 30px;
+        right: 20px;
+        display: inline;
+}
+  
+.divTwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color:  #444;
+    border: 2px solid #4a4a4a;
+}
+.divTwo p{
+    display: inline-block;
+    color: white;
+}
+.divTwo a{
+    text-decoration: none;
+    color: white;
+}
+.divTwo a:hover{
+    color: cornflowerblue;
+} */
