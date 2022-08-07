@@ -6,7 +6,13 @@
     font-family: 'Roboto Mono', monospace;
   }
 
+.carouselMainDiv{
+     position: relative;
+    top:146px;
+    left: 0;
+    
 
+}
 .sec2div{
     text-align: center;
     padding: 50px 4px;
@@ -22,7 +28,7 @@
     text-align: center;
     height: 30vh;
     background-color: #075887;
-    
+   
 }
 .sec2div a{
     border: 2px solid  #075887;

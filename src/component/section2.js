@@ -1,4 +1,4 @@
-import '../assests/css/section2.css';
+import '../assests/css/Carousell.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,7 +8,9 @@ import icon3  from '../assests/img/Icon3.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousel() {
   return (<>
-    <div className='rowdiv1'><h1>BUSINESS IT SERVICES IN DENVER, CO</h1></div>
+  <div className='carouselMainDiv'>
+    <div className='rowdiv1'>
+    <h1>BUSINESS IT SERVICES IN DENVER, CO</h1></div>
     <Container className='sec2div'>
    
       <Row>
@@ -51,7 +53,7 @@ function Carousel() {
     
     </Container>
     </div>
-    
+    </div>
     </>
   );
 }

@@ -8,7 +8,16 @@
 
 .cDiv{
     position: relative;
-    top: 124px;
+    top: 145px;
     left: 0;
-    height: 100px;
+   
+}
+.cDiv img{
+  height: 60vh;
+}
+@media (max-width:400) {
+  .cDiv img{
+    height: 20vh;
+  }
+  
 }
