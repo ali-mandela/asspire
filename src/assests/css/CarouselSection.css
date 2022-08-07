@@ -6,9 +6,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.CarouselDiv{
+.cDiv{
     position: relative;
-    top: 102px;
+    top: 124px;
     left: 0;
-
+    height: 100px;
 }

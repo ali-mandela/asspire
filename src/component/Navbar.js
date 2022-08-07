@@ -2,6 +2,20 @@ import '../assests/css/Navbar.css';
 import logo from '../assests/img/logo.png';
 
 function Navbar(){
+// let menuOpenBtn=document.getElementsByClassName("#root .navbar .fa-bars");
+// let CloseOpenBtn=document.querySelector("#root .navbar .fa-xmark");
+// let navLinks = document.querySelector("#root .nav-links");
+
+// menuOpenBtn.addEventListener("click",function(){
+//   navLinks.style.right='0';
+// }
+// // ()=>{
+// //   navLinks.style.right="0"
+// // }
+// );
+// CloseOpenBtn.addEventListener("click",()=>{
+//   navLinks.style.right="-100%"
+// });
 return(<>
 {/* <div className="topText">
 <div>
@@ -9,6 +23,7 @@ return(<>
 </div>
     
 </div> */}
+<div id='navDiv'>
     <nav> 
     <div className='navbar'>
   <div className='logo'><a href=''><img src={logo} alt='logo of aspire'/></a></div>
@@ -52,6 +67,7 @@ return(<>
     <i className="fa-solid fa-bars fa-3x"></i>
     </div>
     </nav> 
+    </div>
     </>);
       
   }

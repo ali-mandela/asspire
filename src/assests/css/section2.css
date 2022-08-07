@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+
+.sec2div{
+    text-align: center;
+    padding: 50px 4px;
+}
+.sec2div h3{
+    padding: 30px 0;
+}
+.sec2div p{
+    padding: 20px 20px;
+    font-size: 14px;
+}
+.rowdiv1{
+    text-align: center;
+    height: 30vh;
+    background-color: #075887;
+    
+}
+.sec2div a{
+    border: 2px solid  #075887;
+    font-size: 18px;
+    padding: 4px 10px;
+    text-decoration: none;
+    color:#075887;
+}
+.rowdiv1 h1{
+    position: relative;
+    top: 10vh;
+    display: inline;
+    color: white;
+    font-size: 45px;
+    /* background-color: skyblue; */
+}
+
+/* ksdhfihsdhfndo */
+.sec3div{
+    background-image: url("../img/banner.png");
+    text-align: center;
+    padding: 20px 90px;
+    height: 40vh;
+    
+}
+.sec3div .rowDiv{
+    position: relative;
+    top: 13vh;
+}
+.sec3div .divBody{
+    border: 1px solid black;
+     
+}
+.sec3div a{
+    text-decoration: none;
+    color: grey;
+    
+}
+.sec3div a h3{
+    font-size: 24px;
+}
+.sec3div a p{
+    font-size: 14px;
+}
+
+/* sdkjfiou snfiuh ikshfiuhh iehef9uhh */
+
+@media(max-width:500px) 
+{
+   .rowdiv1 h1{
+    font-size: 25px;
+   } 
+   col{
+    margin: 140px 0;
+   }
+   .sec3div .rowDiv{
+    position: relative;
+    top: 5vh;
+}
+.sec3div{
+    padding: 20px 30px;
+}
+.sec3div .divBody{
+    margin-top: 30px;
+}
+   .sec3div a h3{
+    font-size: 14px;
+}
+.sec3div a p{
+    font-size: 8px;
+}
+}
