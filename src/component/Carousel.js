@@ -9,44 +9,40 @@ function Carousell() {
   
     <div className='cDiv'>
     <Carousel variant="dark">
-      <Carousel.Item interval={100}>
+      <Carousel.Item interval={10000}>
         <img
           className="d-block w-100"
           src={bd3}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h1>EXPERIENCE MATTERS</h1>
+         
+        <div className='caption'>
+        <h1>EXPERIENCE MATTERS</h1>
           <p>With over 15,000 service calls under our belt, we've probably seen it before.</p>
-        </Carousel.Caption>
+          </div> 
       </Carousel.Item>
-      <Carousel.Item interval={100}>
+      <Carousel.Item interval={10000}>
         <img
           className="d-block w-100"
           src={bd2}
           alt="Second slide"
-        />
-        <Carousel.Caption>
+        /> 
+        <div className='caption'> 
             <h1>OLD SCHOOL DETAIL. NEW SCHOOL SKILLS</h1>
           <p>Our solutions leverage cutting-edge designs and technology.</p>
-        </Carousel.Caption>
+          </div> 
       </Carousel.Item>
-      <Carousel.Item interval={100}>
+      <Carousel.Item interval={10000}>
         <img
           className="d-block w-100"
           src={bd1}
           alt="Third slide"
-        />
-        <Carousel.Caption>
-        
-
-
-
-          <h1>WE'RE NOT NEW IN TOWN</h1>
+        /> 
+        <div className='caption'>  <h1>WE'RE NOT NEW IN TOWN</h1>
           <p>
           We've worked with over 600 companies in Denver and counting.
-          </p>
-        </Carousel.Caption>
+          </p> 
+          </div> 
       </Carousel.Item>
     </Carousel>
     </div>

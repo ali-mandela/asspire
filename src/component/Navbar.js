@@ -10,7 +10,7 @@ return(<>
 </div>
     
 </div>
-    <nav id='bottom'> 
+    <nav id=''> 
     <div className='navbar'>
   <div className='logo'><a href=''><img src={logo} alt='logo of aspire'/></a></div>
     <div className='nav-links'>
@@ -30,8 +30,24 @@ return(<>
         <li><a href="#">IT SERVICES</a>
         <ul className='submenu'>
         <li><a href="#">Hourly IT Services</a></li>
-        <li><a href="#">Managed IT Services</a></li>
-        <li><a href="#">Netork Security Consulting</a></li>
+        <li><a href="#">Managed IT Services</a>
+        <ul className='sub-submenu'>
+        <li><a href="#">Managed Services Packages </a></li>
+        <li><a href="#">Software Management </a></li>
+        <li><a href="#">Backup system Management</a></li>
+        <li><a href="#">Microsoft Exchange Server Set up</a></li>
+        <li><a href="#">Microsoft Office 365 Setup</a></li>
+        <li><a href="#">Mobile Device Management</a></li>
+        <li><a href="#">Network Services </a></li>
+        <li><a href="#">Vendor Management</a></li>
+        <li><a href="#">Server Management</a></li>
+        <li><a href="#">Work Station Management</a></li>
+        </ul></li>
+        <li><a href="#">Netork Security Consulting</a>
+        <ul className='sub-submenu'>
+        <li><a href="#">Firewall and Network Service </a></li>
+        <li><a href="#">Email Security </a></li>
+        </ul></li>
         <li><a href="#">Project Services</a></li>
         </ul></li>
         <li><a href="#">PRODUCTS</a>

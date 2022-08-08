@@ -9,12 +9,32 @@
 
 .cDiv{
     position: relative;
-    top: 145px;
+    top: 120px;
     left: 0;
    
 }
 .cDiv img{
   height: 60vh;
+}
+
+.caption{
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  text-align: center;
+  transition:all ;
+  transition-delay: 2;
+}
+.caption h1{
+  font-size: 30px;
+  font-weight: bolder;
+  color: cornflowerblue;
+  
+}
+ 
+.caption p{
+  font-size: 20px;
+  color: cornflowerblue;
 }
 @media (max-width:400) {
   .cDiv img{
